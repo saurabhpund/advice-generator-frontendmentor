@@ -30,7 +30,7 @@ body{
     position: relative;
     background-color: var(--secondary-Dark-Grayish-Blue);
     border-radius: 10px;
-    padding: 2em;
+    padding: 2em 1em;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -57,6 +57,7 @@ p{
     display: grid;
     place-items: center;
     cursor: pointer;
+    outline: none;
 }
 
 .dice:active{
@@ -65,7 +66,7 @@ p{
 
 #quote{
     font-size: var(--fs-quote-size);
-    padding: 2em 1em;
+    padding-block: 2em;
 }
 
 blockquote::before{
