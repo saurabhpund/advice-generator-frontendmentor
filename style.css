@@ -34,7 +34,6 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-
     color: var(--primary-Light-Cyan);
 }
 
@@ -64,9 +63,9 @@ p{
     box-shadow: 1px 1px 2em var(--primary-Neon-Green);
 }
 
-#quote{
+blockquote{
     font-size: var(--fs-quote-size);
-    padding-block: 2em;
+    padding-block: 1em;
 }
 
 
