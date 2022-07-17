@@ -69,12 +69,7 @@ p{
     padding-block: 2em;
 }
 
-blockquote::before{
-    content: "\"";
-}
-blockquote::after{
-    content: "\" ";
-}
+
 
 picture{
     margin: 1em auto;
