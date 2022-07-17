@@ -65,7 +65,6 @@ p{
 
 blockquote{
     font-size: var(--fs-quote-size);
-    padding-block: 1em;
     text-align: center;
 }
 
